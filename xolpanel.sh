@@ -53,5 +53,5 @@ echo -e "==============================================="
 read -n 1 -s -r -p "Press any key to Reboot"
 rm -rf xolpanel.sh
 clear
-reboot
+menu
 
