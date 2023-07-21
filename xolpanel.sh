@@ -14,9 +14,11 @@ echo ""
 read -e -p "[*] Input your Bot Token : " bottoken
 read -e -p "[*] Input Your Id Telegram :" admin
 read -e -p "[*] Input Your Subdomain :" domain
+read -e -p "[*] Input Your Slowdns :" sldomain
 echo -e BOT_TOKEN='"'$bottoken'"' >> /root/xolpanel/var.txt
 echo -e ADMIN='"'$admin'"' >> /root/xolpanel/var.txt
 echo -e DOMAIN='"'$domain'"' >> /root/xolpanel/var.txt
+echo -e DOMAIN='"'$sldomain'"' >> /root/xolpanel/var.txt
 clear
 echo "Done"
 echo "Your Data Bot"
@@ -24,6 +26,7 @@ echo -e "==============================="
 echo "Bot Token     : $bottoken"
 echo "Id Telegram   : $admin"
 echo "Subdomain     : $domain"
+echo "Subdomain     : $sldomain"
 echo -e "==============================="
 echo "Setting done Please wait 10s"
 sleep 10
