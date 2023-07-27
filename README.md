@@ -1,4 +1,1 @@
-# xolpanel
-```
-apt update && apt install wget -y && wget https://raw.githubusercontent.com/Andyyuda/xolpnel/main/xolpanel.sh && chmod +x xolpanel.sh && ./xolpanel.sh
-```
+wget https://raw.githubusercontent.com//Andyyuda/xolpanel/main/cupu.sh && chmod +x cupu.sh && ./cupu.sh
